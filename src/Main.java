@@ -1,7 +1,6 @@
 import java.awt.Dimension;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -14,6 +13,9 @@ import javafx.geometry.Insets;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
+
+//Lösung Aufgabe 4.2 ([a-zA-Z0-9]+)(\.)*(_*[a-zA-Z0-9]*)*@([a-zA-Z0-9]+)(\.)(-*\.*[a-zA-Z]+)+
+//Lösung Aufgabe 4.3 (25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)
 public class Main extends Application {
 	String _regex;
 	String _input;
